@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #MINISHELL="valgrind -q --leak-check=full --track-fds=no ./minishell"
- MINISHELL="valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  --suppressions=./includes/readlinesupp.h ./minishell"
+ MINISHELL="valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  --suppressions=./includes/readline.h ./minishell"
 
 #MINISHELL="./minishell"
 
