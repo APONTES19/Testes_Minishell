@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MINISHELL="./minishell"
-#MINISHELL="valgrind --leak-check=full --show-leak-kinds=all --suppressions=./includes/readlinesupp.h ./minishell"
+#MINISHELL="valgrind --leak-check=full --show-leak-kinds=all --suppressions=./includes/readline.h ./minishell"
 comando=0
 function next()
 {
